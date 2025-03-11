@@ -1,0 +1,7 @@
+users:
+  - name: alice
+    ssh_keys: 
+      - "ssh-rsa AAAAB3Nza... alice@key-tag"
+  - name: bob
+    ssh_keys: 
+      - "ssh-rsa AAAAB3Nza... bob@key-tag"
