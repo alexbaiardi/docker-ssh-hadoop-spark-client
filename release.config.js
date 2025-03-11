@@ -1,5 +1,5 @@
 const publishCmd = `
-chmod +x *.sh; ./publish.sh \${nextRelease.version} w4bo python
+chmod +x *.sh; ./publish.sh \${nextRelease.version} alexbaiardi2 ssh-hadoop-spark-client
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(

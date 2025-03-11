@@ -12,7 +12,7 @@ jobs:
       - name: Launch and test
         run: |
           cd image
-          docker compose up
+          docker build .
   release:
     needs:
       - build

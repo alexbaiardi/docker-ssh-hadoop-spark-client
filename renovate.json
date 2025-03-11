@@ -2,7 +2,7 @@
   "extends": [
     "config:base", ":rebaseStalePrs", ":semanticCommits"
   ],
-  "assignees": ["w4bo"],
+  "assignees": ["alexbaiardi"],
   "automerge": true,
   "dependencyDashboard": true,
   "git-submodules": {
