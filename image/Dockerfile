@@ -81,7 +81,7 @@ RUN echo "SPARK_CONF_DIR=${SPARK_CONF_DIR}" >> /etc/environment
 RUN mkdir /var/run/sshd
 
 # Copy configuration script
-COPY fat_client/create_users.sh /etc/user-config/
+COPY create_users.sh /etc/user-config/
 RUN chmod +x /etc/user-config/create_users.sh
 
 # Run configuration script and start ssh server
